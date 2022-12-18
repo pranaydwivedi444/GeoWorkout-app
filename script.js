@@ -222,7 +222,7 @@ class App {
     });
   }
   reset() {
-    localStorage.removeItem("workout");
+    localStorage.removeItem("workouts");
     location.reload();
   }
 }
